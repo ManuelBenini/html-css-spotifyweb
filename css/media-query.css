@@ -1,0 +1,76 @@
+@media screen and (max-width: 419px) {
+
+  /* BARRA LATERALE */
+
+    /* LOGO */
+        #aside-menù .logo-standard{
+          display: none;
+        }
+
+        #aside-menù .logo{
+          height: 40px;
+          padding-left: 15px;
+        }
+        
+        #aside-menù .logo-small{
+          display: inline-block;
+        }
+
+        #aside-menù .logo img{
+          width: 30px;
+        }
+    /* /LOGO */
+
+    /* NAVIGAZIONE CATEGORIE */
+      .navigate{
+        height: 86%;
+      }
+      .navigate a {
+        padding: 5px 0 5px 15px;
+      }
+    /* /NAVIGAZIONE CATEGORIE */
+
+    /* PLAYLIST */
+      .playlist{
+        display: none;
+      }
+    /* /PLAYLIST */
+
+    /* PROFILE */
+      #aside-menù span{
+        display: none;
+      }
+
+      #aside-menù hr{
+        display: none;
+      }
+
+      #aside-menù .profile{
+        height: 0;
+        padding-left: 15px;
+      }
+
+      .profile i{
+        padding-left: 6px;
+        padding-bottom: 10px;
+      }
+    /* /PROFILE */
+
+  /* /BARRA LATERALE */
+
+  /* PLAYER-CONTENT */  
+    #player-content {
+      padding: 80px 0px 0 10px;
+    }
+
+    #player-content .navigation nav ul a {
+      padding-right: 10px;
+      font-size: 11px;
+    }
+
+    #player-content h4 {
+      margin: 5px 0;
+      font-size: 12px;
+    }
+  /* /PLAYER-CONTENT */
+}

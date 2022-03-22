@@ -30,18 +30,19 @@
     <!-- SEZIONE LATERALE -->
       <section id="aside-menù">
         <div class="logo">
-          <img src="img/logo.svg" alt="">
+          <img src="img/logo.svg" class="logo-standard" alt="">
+          <img src="img/logo-small.svg" class="logo-small" alt="">
         </div>
 
         <div class="navigate">
           <a href="#" class="active">
-           <img src="img/home.svg" alt=""> Home
+           <img src="img/home.svg" alt=""> <span class="categories">Home</span> 
           </a>
           <a href="#">
-           <img src="img/search.svg" alt=""> Cerca
+           <img src="img/search.svg" alt=""> <span class="categories"> Cerca</span>
           </a>
           <a href="#">
-           <img src="img/libreria.svg" alt=""> La tua libreria
+           <img src="img/libreria.svg" alt=""> <span class="categories">La tua libreria</span> 
           </a>
         </div>
 
@@ -65,15 +66,13 @@
 
         <div class="profile">
           <a href="#">
-            <i class="fa-regular fa-circle-down"></i> Installa app
+            <i class="fa-regular fa-circle-down"></i> <span class="install">Installa app</span> 
           </a>
           <hr>
-          <span class="user">
-            <a href="#">
+            <a href="#" class="user">
               <img src="img/profile.svg" alt="">
             </a> 
-            John Doe
-          </span> 
+            <span class="username">John Doe</span> 
         </div>
       </section>
     <!-- /SEZIONE LATERALE -->
@@ -103,7 +102,9 @@
               <div class="card-cover">
                 <img src="img/metal_lifting.jpg" alt="">
                 <div class="play-hover">
-                  <i class="fa-regular fa-circle-play"></i>
+                  <a href="#">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </a>
                 </div>
               </div>
               <h4>heavy metal</h4>
@@ -113,7 +114,9 @@
               <div class="card-cover">
                 <img src="img/stranger.jpeg" alt="">
                 <div class="play-hover">
-                  <i class="fa-regular fa-circle-play"></i>
+                  <a href="#">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </a>
                 </div>
               </div>
               <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
@@ -123,7 +126,9 @@
               <div class="card-cover">
                 <img src="img/aquietplace.jpeg" alt="">
                 <div class="play-hover">
-                  <i class="fa-regular fa-circle-play"></i>
+                  <a href="#">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </a>
                 </div>
               </div>
               <h4>A quiet place</h4>
@@ -133,7 +138,9 @@
               <div class="card-cover">
                 <img src="img/split.jpeg" alt="">
                 <div class="play-hover">
-                  <i class="fa-regular fa-circle-play"></i>
+                  <a href="#">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </a>
                 </div>
               </div>
               <h4>Split</h4>
@@ -143,7 +150,9 @@
               <div class="card-cover">
                 <img src="img/cure.jpeg" alt="">
                 <div class="play-hover">
-                  <i class="fa-regular fa-circle-play"></i>
+                  <a href="#">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </a>
                 </div>
               </div>
               <h4>A cure for wellness</h4>
@@ -153,7 +162,9 @@
               <div class="card-cover">
                 <img src="img/sinister.jpeg" alt="">
                 <div class="play-hover">
-                  <i class="fa-regular fa-circle-play"></i>
+                  <a href="#">
+                    <i class="fa-regular fa-circle-play"></i>
+                  </a>
                 </div>
               </div>
               <h4>Sinister</h4>
@@ -170,7 +181,9 @@
             <div class="card-cover">
               <img src="img/radar.jpeg" alt="">
               <div class="play-hover">
-                <i class="fa-regular fa-circle-play"></i>
+                <a href="#">
+                  <i class="fa-regular fa-circle-play"></i>
+                </a>
               </div>
             </div>
             <h4>Release Radar</h4>
@@ -179,7 +192,9 @@
             <div class="card-cover">
               <img src="img/mixdaily.jpeg" alt="">
               <div class="play-hover">
-                <i class="fa-regular fa-circle-play"></i>
+                <a href="#">
+                  <i class="fa-regular fa-circle-play"></i>
+                </a>
               </div>
             </div>
             <h4>Daiy Mix 1</h4>
@@ -195,7 +210,9 @@
             <div class="card-cover">
               <img src="img/youg.jpeg" alt="">
               <div class="play-hover">
-                <i class="fa-regular fa-circle-play"></i>
+                <a href="#">
+                  <i class="fa-regular fa-circle-play"></i>
+                </a>
               </div>
             </div>
             <h4>Release Radar</h4>
@@ -204,7 +221,9 @@
             <div class="card-cover">
               <img src="img/einaudi.jpeg" alt="">
               <div class="play-hover">
-                <i class="fa-regular fa-circle-play"></i>
+                <a href="#">
+                  <i class="fa-regular fa-circle-play"></i>
+                </a>
               </div>
             </div>
             <h4>Daiy Mix 1</h4>
@@ -246,13 +265,13 @@
     <!-- PLAYER MUSICALE -->
       <div class="music-player">
         <div class="music-action">
-          <a href="">
+          <a href="#">
             <i class="fa-solid fa-shuffle"></i>
           </a>
-          <a href="">
+          <a href="#">
             <i class="fa-solid fa-backward-step"></i>
           </a>
-          <a href="">
+          <a href="#">
             <i class="fa-regular fa-circle-play"></i>
           </a>
           <a href="#">
