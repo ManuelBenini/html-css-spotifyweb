@@ -4,7 +4,7 @@ header{
   top: 0;
   right: 0;
   text-align: right;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 25px;
   height: 90px;
   z-index: 999;
@@ -15,7 +15,11 @@ header button.call-to-action{
   padding: 10px 30px;
   border-radius: 50px;
   border: 1px solid white;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   color: white;
   font-weight: bold;
+}
+
+header button.call-to-action:hover{
+  transform: scale(1.1);
 }
