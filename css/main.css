@@ -19,9 +19,9 @@ main{
   }
 
   #aside-menù .logo{
-    height: 78px;
+    height: 71px;
     flex-shrink: 0;
-    padding-left: 20px;
+    padding: 0 20px
   }
 
   #aside-menù .logo img{
@@ -40,7 +40,7 @@ main{
       }
 
       .navigate a{
-        padding: 5px 0 5px 20px;
+        padding: 5px 20px 5px 20px;
       }
 
       .navigate a:nth-child(1n + 2){
@@ -62,9 +62,8 @@ main{
       #aside-menù .playlist{
         height: 100vh;
         min-height: 208px;
-        padding-top: 20px;
         overflow-y: auto;
-        padding-left: 20px;
+        padding: 20px 20px 0 20px;
       }
 
       #aside-menù .playlist ul li a{
@@ -96,9 +95,8 @@ main{
 
   /* PROFILO UTENTE*/
       #aside-menù .profile{
-        height: 75px;
         flex-shrink: 0;
-        padding-left: 20px;
+        padding: 0 20px;
       }
 
       #aside-menù .profile i{
@@ -165,7 +163,7 @@ main{
       }
 
       .navigation .active-little{
-        background-color: green;
+        background-color: #C0FF31;
         height: 3px;
         width: 40%;
         margin: 0 auto;

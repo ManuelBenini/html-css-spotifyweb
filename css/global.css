@@ -22,16 +22,6 @@ h2{
   margin: 5px 0;
 }
 
-.active{
-  border-left: 3px solid #91C827;
-  color: white;
-}
-
 a:hover{
   color: white;
-}
-
-.sottotitolo{
-  color: #7B7D82;
-  font-size: 13px;
 }
