@@ -1,0 +1,102 @@
+main{
+  height: calc(100vh - 100px);
+  background-color: #141922;
+  display: flex;
+}
+
+
+/* MENÙ LATERALE */
+  section#aside-menù{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    background-color: black;
+    height: 100%;
+    padding: 22px 10px 0 10px;
+    flex-shrink: 0;
+  }
+
+  #aside-menù .logo{
+    height: 78px;
+    flex-shrink: 0;
+  }
+
+  #aside-menù .logo img{
+    width: 150px;
+  }
+
+  #aside-menù .navigate{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+  }
+
+  #aside-menù .navigate a{
+    padding-bottom: 15px;
+  }
+
+  #aside-menù .playlist{
+    height: 100vh;
+    min-height: 96px;
+    overflow-y: auto;
+  }
+
+  #aside-menù .profile{
+    height: 65px;
+    flex-shrink: 0;
+  }
+
+  #aside-menù hr{
+    margin: 10px 0;
+  }
+
+  #aside-menù .user{
+    font-weight: bold;
+  }
+/* /MENÙ LATERALE */
+
+
+/* PLAYER CONTENT */
+  #player-content{
+    padding: 100px 0 0 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    overflow-y: auto;
+  }
+
+  /* BARRA DI NAVIGAZIONE */
+    #player-content .navigation nav ul{
+      display: flex;
+      justify-content: center;
+    }
+
+    #player-content .navigation nav ul a{
+      padding-right: 10px;
+      font-size: 13px
+    }
+  /* BARRA DI NAVIGAZIONE */
+
+
+
+  /* ASCOLTI RECENTI */
+    #player-content .ascolti-recenti{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    
+    #player-content .ascolti-recenti .card{
+      height: 188.333px;
+      width: calc(100% / 6 - 10px);
+      text-align: center;
+    }
+
+    #player-content .ascolti-recenti .card img{
+      width: 100%;
+      height: 100%;
+    }
+  /* /ASCOLTI RECENTI */
+
+/* /PLAYER CONTENT */

@@ -1,0 +1,25 @@
+footer{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #282828;
+  z-index: 2;
+}
+
+footer .song{
+  width: 15%;
+  background-color: blue;
+  flex-shrink: 0;
+}
+
+footer .player{
+  width: 50%;
+  background-color: red;
+}
+
+footer .manage-audio{
+  width: 15%;
+  background-color: blue;
+  flex-shrink: 0;
+}
