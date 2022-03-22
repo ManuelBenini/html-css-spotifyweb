@@ -35,8 +35,11 @@ main{
         flex-shrink: 0;
       }
 
-      #aside-menù .navigate a{
+      .navigate a{
         padding: 5px 0 5px 20px;
+      }
+
+      .navigate a:nth-child(1n + 2){
         border-left: 3px solid black;
       }
 
@@ -55,13 +58,17 @@ main{
       #aside-menù .playlist{
         height: 100vh;
         min-height: 208px;
-        padding-top: 10px;
+        padding-top: 20px;
         overflow-y: auto;
         padding-left: 20px;
       }
 
       #aside-menù .playlist ul li a{
         font-weight: bold;
+      }
+
+      #aside-menù .playlist ul li a:hover{
+        filter: brightness(2);
       }
 
       #aside-menù .playlist ul li:first-child{
@@ -131,10 +138,6 @@ main{
     margin: 25px 0;
   }
 
-  #player-content .sottotitolo{
-    color: #7B7D82;
-  }
-
   #player-content h4{
     margin: 10px 0;
   }
@@ -167,6 +170,9 @@ main{
         width: calc(100% / 6 - 15px);
         text-align: center;
         min-width: 129px;
+      }
+
+      #player-content .card-container .card-cover{
         position: relative;
       }
 
@@ -181,17 +187,17 @@ main{
       #player-content .card-container .card .play-hover{
         display: none;
         position: absolute;
-        top: 35%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 70px;
       }
 
-      #player-content .card-container .card img:hover{
+      #player-content .card-container .card-cover:hover img{
         filter: brightness(0.5);
       }
 
-      #player-content .card-container .card:hover .play-hover{
+      #player-content .card-container .card-cover:hover .play-hover{
         display: inline-block;
       }
   /* /ASCOLTI RECENTI */

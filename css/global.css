@@ -29,5 +29,9 @@ h2{
 
 a:hover{
   color: white;
-  filter: brightness(2);
+}
+
+.sottotitolo{
+  color: #7B7D82;
+  font-size: 13px;
 }
