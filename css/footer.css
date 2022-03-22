@@ -108,10 +108,26 @@ footer{
   .little.bar{
     width: 20%;
     background-color: #C1C1C1;
+    position: relative;
+  }
+
+  .bar-circle{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
   }
 
   .progress.bar .little.bar:hover{
     background-color: #BCF55A;
+  }
+
+  .progress.bar .little.bar:hover .bar-circle{
+    display: inline-block;
   }
 
   .timer{
@@ -140,9 +156,14 @@ footer{
   .little-audio.bar{
     width: 20%;
     background-color: #C1C1C1;
+    position: relative;
   }
 
   .audio.bar .little-audio.bar:hover{
     background-color: #BCF55A;
+  }
+
+  .audio.bar .little-audio.bar:hover .bar-circle{
+    display: inline-block;
   }
 /* /SEZIONE DESTRA (GESTIONE AUDIO) */
