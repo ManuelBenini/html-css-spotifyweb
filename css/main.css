@@ -58,7 +58,7 @@ main{
 
 /* PLAYER CONTENT */
   #player-content{
-    padding: 100px 0 0 20px;
+    padding: 90px 20px 0 20px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -66,37 +66,63 @@ main{
     overflow-y: auto;
   }
 
-  /* BARRA DI NAVIGAZIONE */
-    #player-content .navigation nav ul{
-      display: flex;
-      justify-content: center;
-    }
+  #player-content > div{
+    margin: 25px 0;
+  }
 
-    #player-content .navigation nav ul a{
-      padding-right: 10px;
-      font-size: 13px
-    }
-  /* BARRA DI NAVIGAZIONE */
+  #player-content .sottotitolo{
+    color: #7B7D82;
+  }
 
+  #player-content h4{
+    margin: 10px 0;
+  }
+
+  /* BARRA DI NAVIGAZIONE */
+      #player-content .navigation{
+        margin-bottom: 10px;
+      }
+
+      #player-content .navigation nav ul{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      #player-content .navigation nav ul a{
+        padding-right: 30px;
+        font-size: 13px;
+        color: #7E8085;
+      }
+  /* BARRA DI NAVIGAZIONE */
 
 
   /* ASCOLTI RECENTI */
-    #player-content .ascolti-recenti{
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-    }
-    
-    #player-content .ascolti-recenti .card{
-      height: 188.333px;
-      width: calc(100% / 6 - 10px);
-      text-align: center;
-    }
+      #player-content .card-container{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      #player-content .card-container .card{
+        width: calc(100% / 6 - 15px);
+        text-align: center;
+        min-width: 129px;
+      }
 
-    #player-content .ascolti-recenti .card img{
-      width: 100%;
-      height: 100%;
-    }
+      #player-content div.card-container > div.card{
+        margin-right: 15px;
+      }
+
+      #player-content .card-container .card img{
+        width: 100%;
+      }
   /* /ASCOLTI RECENTI */
+
+  
+  /* ARTISTI PIÙ POPOLARI */
+      #player-content .card-container .card.circle img{
+        border-radius: 50%;
+      }
+  /* /ARTISTI PIÙ POPOLARI */
 
 /* /PLAYER CONTENT */
