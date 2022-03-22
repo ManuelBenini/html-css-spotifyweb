@@ -156,9 +156,19 @@ main{
         flex-wrap: wrap;
       }
 
+      #player-content .navigation nav ul li{
+        margin-right: 30px;
+      }
+
       #player-content .navigation nav ul a{
-        padding-right: 30px;
         font-size: 13px;
+      }
+
+      .navigation .active-little{
+        background-color: green;
+        height: 3px;
+        width: 40%;
+        margin: 0 auto;
       }
   /* BARRA DI NAVIGAZIONE */
 
