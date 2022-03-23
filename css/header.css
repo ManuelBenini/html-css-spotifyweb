@@ -1,6 +1,6 @@
 header{
   position: fixed;
-  width: 85%;
+  width: calc(100% - 230px);
   top: 0;
   right: 0;
   text-align: right;

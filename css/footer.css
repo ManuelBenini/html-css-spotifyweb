@@ -12,25 +12,25 @@ footer{
 
 /* SEZIONE SINISTRA (TITOLO CANZONE) */
   .song{
-    width: 15%;
+    width: 210px;
     flex-shrink: 0;
     display: flex;
   }
 
-  .song-cover{
+  .song .song-cover{
     margin-right: 10px;
   }
 
   .song-cover img{
-    width: 50px;
-    transition: all 0.5s linear;
+    width: 40px;
+    transition: all 0.2s linear;
   }
 
   .song-cover img:hover{
     transform: scale(1.2);
   }
 
-  .song-content{
+  .song .song-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,7 +42,7 @@ footer{
     color: white;
   }
 
-  .song-action i{
+  .song-content .song-action i{
     margin-left: 10px;
     color: #7E8085;
   }
@@ -59,12 +59,12 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 30%;
     padding-top: 10px;
   }
 
-  .music-action{
-    width: 160px;
+  .music-player .music-action{
+    width: 200px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -86,7 +86,7 @@ footer{
     transform: scale(1.2);
   }
 
-  .music-time{
+  .music-player .music-time{
     height: 50px;
     width: 100%;
     display: flex;
@@ -149,8 +149,8 @@ footer{
     color: white;
   }
 
-  .audio.bar{
-    width: 150px;
+  .manage-audio .audio.bar{
+    width: 60%;
   }
 
   .little-audio.bar{
