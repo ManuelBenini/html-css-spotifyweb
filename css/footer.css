@@ -122,11 +122,11 @@ footer{
     background-color: white;
   }
 
-  .progress.bar .little.bar:hover{
+  .progress.bar:hover .little.bar{
     background-color: #BCF55A;
   }
 
-  .progress.bar .little.bar:hover .bar-circle{
+  .progress.bar:hover .little.bar .bar-circle{
     display: inline-block;
   }
 
@@ -159,11 +159,11 @@ footer{
     position: relative;
   }
 
-  .audio.bar .little-audio.bar:hover{
+  .audio.bar:hover .little-audio.bar{
     background-color: #BCF55A;
   }
 
-  .audio.bar .little-audio.bar:hover .bar-circle{
+  .audio.bar:hover .little-audio.bar .bar-circle{
     display: inline-block;
   }
 /* /SEZIONE DESTRA (GESTIONE AUDIO) */
