@@ -80,7 +80,8 @@ footer{
     color: white;
   }
 
-  .music-action a .fa-regular:hover {
+  .music-action a .fa-regular:hover,
+  .music-action a .fa-solid:hover{
     transform: scale(1.2);
   }
 
