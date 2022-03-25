@@ -98,6 +98,10 @@
     padding-top: 5px;
   }
 
+  span{
+    display: none;
+  }
+
     /* LOGO */
         #side-menù .logo-standard{
           display: none;
@@ -122,7 +126,7 @@
         flex-grow: 1;
       }
 
-      .category a {
+      .category a{
         padding: 5px 0 5px 15px;
       }
     /* /NAVIGAZIONE CATEGORIE */
@@ -134,17 +138,13 @@
     /* /PLAYLIST */
 
     /* PROFILE */
-      #side-menù span{
-        display: none;
-      }
-
-      hr{
-        display: none;
-      }
-
-      .profile{
+      #side-menù .profile{
         height: 60px;
         padding-left: 15px;
+      }
+
+      .profile hr{
+        display: none;
       }
 
       .profile i{
