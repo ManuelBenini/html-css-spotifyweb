@@ -43,11 +43,15 @@ main{
         padding: 5px 20px 5px 20px;
       }
 
-      .category a:nth-child(1n + 2){
-        border-left: 3px solid black;
+      .category a{
+        border-left: 3px solid transparent;
+      }
+
+      .category a.active{
+        border-left: 3px solid #91C827;
+        color: white;
       }
       
-
       .category a:hover{
         border-left: 3px solid #91C827;
       }
