@@ -18,6 +18,7 @@ header button.call-to-action{
   background-color: rgba(0, 0, 0, 0);
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 header button.call-to-action:hover{
