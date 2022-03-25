@@ -64,38 +64,16 @@ main{
 
 
   /* PLAYLIST */
-      #side-menù h5{
-        padding: 0 20px 0 20px;
-        margin-top: 20px;
-      }
-      
-      .add-playlist{
-        padding: 10px 20px 10px 20px;
-      }
-
       #side-menù .playlist{
         flex-grow: 1;
-        min-height: 105px;
-        overflow-y: auto;
-        padding: 0 20px 0 20px;
+        min-height: 205px;
+        padding: 0 20px;
       }
 
-      .playlist ul{
-        font-weight: bold;
+      #side-menù h5{
+        margin: 20px 0 10px 0;
       }
-
-      .playlist ul li a{
-        font-weight: bold;
-      }
-
-      .playlist ul li a:hover{
-        filter: brightness(2);
-      }
-
-      .playlist ul li:nth-child(1n + 2){
-        margin-top: 20px;
-      }
-
+      
       .fa-solid.fa-plus{
         background-color: #969696;
         width: 30px;
@@ -105,12 +83,31 @@ main{
         color: black;
         margin-right: 5px;
       }
+
+      .playlist ul{
+        overflow-y: auto;
+        height: 80%;
+        font-weight: bold;
+      }
+
+      .playlist ul li{
+        margin-top: 20px;
+      }
+      
+      .playlist ul li a{
+        font-weight: bold;
+      }
+      
+      .playlist ul li a:hover{
+        filter: brightness(2);
+      }
   /* PLAYLIST */
 
   /* PROFILO UTENTE*/
       #side-menù .profile{
         flex-shrink: 0;
         padding: 0 20px 5px 20px;
+        background-color: black;
       }
 
       .profile i{

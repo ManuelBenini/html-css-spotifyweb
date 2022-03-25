@@ -128,9 +128,7 @@
     /* /NAVIGAZIONE CATEGORIE */
 
     /* PLAYLIST */
-      .playlist,
-      #side-menù h5,
-      .add-playlist{
+      .playlist{
         display: none;
       }
     /* /PLAYLIST */
